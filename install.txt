@@ -1,0 +1,6 @@
+1. sudo bash
+2. wget -O - http://apt.pm-codeworks.de/pm-codeworks.de.gpg | apt-key add -
+3. wget http://apt.pm-codeworks.de/pm-codeworks.list -P /etc/apt/sources.list.d/
+4. apt-get update
+5. apt-get install python-fingerprint --yes
+6. pip3 install PyFingerprint

@@ -4,9 +4,9 @@ import smtplib
 from email.message import EmailMessage
 
 #Set the sender email and password and recipient emaiç
-from_email_addr ="raspberypialert@gmail.com"
-from_email_pass ="efrt bzdc srud mhdi"
-to_email_addr ="loginforallup@gmail.com"
+from_email_addr ="your_emailaddress"
+from_email_pass ="your_email_passkey"
+to_email_addr ="receiver_emailaddress"
 
 # Create a message object
 msg = EmailMessage()

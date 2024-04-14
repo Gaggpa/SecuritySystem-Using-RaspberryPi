@@ -150,9 +150,9 @@ def log_event(message):
     print(f"{time.strftime('%Y-%m-%d %H:%M:%S')}: {message}")
 
 # Email settings
-from_email_addr = "raspberypialert@gmail.com"
-from_email_pass = "efrt bzdc srud mhdi"
-to_email_addr = "loginforallup@gmail.com"
+from_email_addr ="your_email_address"
+from_email_pass ="your_email_passkey"
+to_email_addr ="receiver_emailaddress"
 
 def send_email(subject, body, attachment_path=None):
     """Send an email with optional attachment."""
